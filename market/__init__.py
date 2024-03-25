@@ -2,13 +2,6 @@ from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 
-
-USERNAME = 'euansu'
-PASSWORD = 'suwenhui123%40'
-HOST = '101.43.211.36'
-PORT = 3306
-DATABASE = 'flask_db'
-
 app = Flask(__name__)
 # 配置数据库
 # 'sqlite:///market.sqlite'
